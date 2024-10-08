@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghetto Talent Search</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Ghetto Talent Search</h1>
+        <p>Empowering Talent from the Streets to the Stars</p>
+        <a href="#donate" class="cta-button">Donate Now</a>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We aim to identify and nurture hidden talent in the ghetto. Our goal is to provide opportunities to individuals with potential, helping them to rise beyond their circumstances and achieve greatness.</p>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section id="stories">
+        <h2>Talent Success Stories</h2>
+        <div class="story">
+            <h3>John's Story</h3>
+            <p>John was a young rapper who found his voice through our platform. Now, he’s performing at major events and making his dream come true.</p>
+        </div>
+        <div class="story">
+            <h3>Sara's Story</h3>
+            <p>Sara is a dancer who had no outlet for her talent. Through Ghetto Talent Search, she’s now performing in national competitions.</p>
+        </div>
+    </section>
+
+    <!-- Get Involved Section -->
+    <section id="get-involved">
+        <h2>Get Involved</h2>
+        <p>You can make a difference by donating, volunteering, or partnering with us. Help us uplift talent in the ghetto and give these individuals the opportunity they deserve.</p>
+        <ul>
+            <li><strong>Donate:</strong> Contribute financially to support our projects.</li>
+            <li><strong>Volunteer:</strong> Offer your time and skills to help organize events.</li>
+            <li><strong>Partner:</strong> Collaborate with us to sponsor talent shows or provide resources.</li>
+        </ul>
+    </section>
+
+    <!-- Donation Section -->
+    <section id="donate">
+        <h2>Donate to Support Us</h2>
+        <p>Your donation helps us to reach more talented individuals and provide them with the resources they need to succeed.</p>
+        <form action="https://www.paypal.com/donate" method="post">
+            <!-- Customize this form for actual donations -->
+            <label for="amount">Enter amount:</label>
+            <input type="number" id="amount" name="amount" placeholder="Enter donation amount">
+            <button type="submit" class="cta-button">Donate Now</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to get in touch, please contact us at:</p>
+        <p>Email: <a href="mailto:info@ghettotalentsearch.org">info@ghettotalentsearch.org</a></p>
+        <p>Phone: +123 456 7890</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/yourpage">Facebook</a> |
+            <a href="https://www.instagram.com/yourpage">Instagram</a> |
+            <a href="https://www.twitter.com/yourpage">Twitter</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Ghetto Talent Search. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
